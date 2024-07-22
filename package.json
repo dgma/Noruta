@@ -1,15 +1,15 @@
 {
-  "name": "sol-starter",
-  "version": "0.1.1",
-  "description": "Template to bootstrap solidity project with foundry and hardhat",
+  "name": "panicsell",
+  "version": "0.0.1",
+  "description": "panicsell meme coin",
   "author": "Dzmitry Lahunouski",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com:dgma/sol-starter.git"
+    "url": "git+https://github.com/dgma/panicsell.git"
   },
   "bugs": {
-    "url": "https://github.com:dgma/sol-starter/issues"
+    "url": "https://github.com/dgma/panicsell/issues"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^5.0.2"
@@ -27,6 +27,7 @@
     "lint-staged": "^15.2.4",
     "prettier": "^3.2.5",
     "solhint": "^5.0.1",
-    "solidity-coverage": "^0.8.12"
+    "solidity-coverage": "^0.8.12",
+    "solc": "^0.8.26"
   }
 }
